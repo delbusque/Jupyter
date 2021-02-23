@@ -1,2 +1,1 @@
-# Jupyter
- Python bootcamp From Zero To Hero
+Learning Python from the basics with Jose Portilla
