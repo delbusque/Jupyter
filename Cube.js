@@ -6,7 +6,11 @@ class Cube {
         this.difficulty = difficulty;
     }
 
-    static getAll = () => Cube.cubes.slice()
+    static get cubes() {
+        return Cube.cubes.slice();
+    }
+
+    static getAll = () => Cube.cubes.slice();
 
     static add = (cube) => Cube.cubes.push(cube)
 }
@@ -19,7 +23,7 @@ Cube.add(cube);
 console.log(Cube.cubes);
 console.log(cube.name);
 
-let cubesData = Cube.getAll();
+let cubesData = Cube.cubes;
 
 Cube.add(cube1);
 
