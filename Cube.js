@@ -16,15 +16,13 @@ let cube1 = new Cube('muss', 14);
 
 Cube.add(cube);
 
-let cubes = Cube.getAll();
-
+console.log(Cube.cubes);
 console.log(cube.name);
-console.log(cubes);
+
+let cubesData = Cube.getAll();
 
 Cube.add(cube1);
 
-console.log(cube1.name);
-console.log(Cube.cubes);
+cubesData = Cube.getAll();
 
-cubes = Cube.getAll();
-console.log(cubes);
+console.log(cubesData);
