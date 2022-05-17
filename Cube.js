@@ -1,5 +1,5 @@
 class Cube {
-    static cubes = [];
+    static #cubes = [];
 
     constructor(name, difficulty) {
         this.name = name;
@@ -7,12 +7,12 @@ class Cube {
     }
 
     static get cubes() {
-        return Cube.cubes.slice();
+        return Cube.#cubes.slice();
     }
 
-    static getAll = () => Cube.cubes.slice();
+    static getAll = () => Cube.#cubes.slice();
 
-    static add = (cube) => Cube.cubes.push(cube)
+    static add = (cube) => Cube.#cubes.push(cube)
 }
 
 let cube = new Cube('rubcho', 4);
