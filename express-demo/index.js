@@ -6,6 +6,8 @@ const app = express();
 
 const public = path.join(__dirname, 'public');
 
+const names = ['Bob', 'Josh'];
+let curr = names[0];
 
 app.engine('handlebars', engine());
 app.set('view engine', 'handlebars');
@@ -14,8 +16,7 @@ app.set('views', './views');
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-    console.log(public);
-    res.render('home')
+    res.render('home', { names, curr })
 })
 
 app.get('/about', (req, res) => res.render('about'));
