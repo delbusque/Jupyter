@@ -544,7 +544,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .colorlib-about {
-  padding-top: 5em;
+  padding-top: 2em;
   padding-bottom: 9em;
   clear: both;
   width: 100%;
@@ -2146,4 +2146,12 @@ body.offcanvas .colorlib-nav-toggle {
 
 .foot-colorlib {
   color: #99999976;
+}
+
+.row {
+  margin-top: 40px;
+}
+
+.colorlib-work {
+  margin-top: 100px;
 }
