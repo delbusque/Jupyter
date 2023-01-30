@@ -111,7 +111,6 @@ figure figcaption {
   float: left;
   width: 300px;
   position: fixed;
-  overflow-y: scroll;
   z-index: 1001;
   background: #f2f3f7;
   -webkit-transition: 0.5s;
@@ -288,7 +287,7 @@ figure figcaption {
 }
 
 #colorlib-aside .colorlib-footer ul li a {
-  color: rgba(160, 154, 154, 0.151);
+  color: rgba(160, 154, 154, 0.349);
   padding: 4px;
 }
 
