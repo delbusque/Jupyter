@@ -692,6 +692,13 @@ body.offcanvas .colorlib-nav-toggle {
   margin-top: -7px;
 }
 
+@media screen and (max-width:420px) {
+  .panel-heading a:after {
+    right: 15px;
+  }
+
+}
+
 .panel-heading a.collapsed:after {
   content: "\e114";
 }
@@ -2046,11 +2053,11 @@ body.offcanvas .colorlib-nav-toggle {
   padding-bottom: 1em;
 } */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .row-bottom-padded-sm {
     padding-bottom: 1em;
   }
-}
+} */
 
 .row-pt-md {
   padding-top: 3em;
@@ -2148,9 +2155,50 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .row {
-  margin-top: 40px;
+  margin-top: 15px;
 }
 
 .colorlib-work {
   margin-top: 100px;
+}
+
+.heading-meta.work-meta {
+  margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 992px) {
+
+  .colorlib-about,
+  .colorlib-work,
+  .colorlib-education,
+  .colorlib-contact {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #colorlib-aside {
+    width: 30%;
+    height: 100%;
+    overflow: auto;
+  }
+}
+
+@media screen and (max-width: 420px) {
+
+  .panel-heading a,
+  .panel-heading a:after {
+    font-size: 11px;
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  .panel-heading a,
+  .panel-heading a:after {
+    font-size: 10px;
+  }
 }
