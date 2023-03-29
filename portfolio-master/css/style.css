@@ -2100,24 +2100,16 @@ body.offcanvas .colorlib-nav-toggle {
   margin-top: 210px;
 }
 
+@media screen and (max-height: 1200px) {
+  .colorlib-footer {
+    margin-top: 160px;
+    padding-bottom: 20px;
+  }
+}
 
 @media screen and (max-height: 1000px) {
   .colorlib-footer {
-    margin-top: 210px;
-    padding-bottom: 20px;
-  }
-}
-
-@media screen and (max-height: 800px) {
-  .colorlib-footer {
-    margin-top: 170px;
-    padding-bottom: 20px;
-  }
-}
-
-@media screen and (max-height: 650px) {
-  .colorlib-footer {
-    margin-top: 130px;
+    margin-top: 120px;
     padding-bottom: 20px;
   }
 }
