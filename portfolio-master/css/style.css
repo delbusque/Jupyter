@@ -557,7 +557,7 @@ body.offcanvas .colorlib-nav-toggle {
 .colorlib-work,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 1.3em;
+  /* padding-top: 1.3em; */
   clear: both;
   width: 100%;
   display: block;
@@ -2141,9 +2141,9 @@ body.offcanvas .colorlib-nav-toggle {
   }
 }
 
-.colorlib-work {
-  margin-top: 250px;
-}
+/* .colorlib-work {
+  margin-top: 100px;
+} */
 
 .proj-link {
   font-size: 10px;
@@ -2180,7 +2180,7 @@ body.offcanvas .colorlib-nav-toggle {
   margin-top: 15px;
 }
 
-.colorlib-work {
+.colorlib-contact {
   margin-top: 100px;
 }
 
