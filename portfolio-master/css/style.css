@@ -2171,10 +2171,6 @@ body.offcanvas .colorlib-nav-toggle {
   margin-top: 15px;
 }
 
-/* .colorlib-contact {
-  margin-top: 30px;
-} */
-
 .heading-meta.work-meta {
   margin-bottom: 0;
 }
@@ -2252,6 +2248,8 @@ body.offcanvas .colorlib-nav-toggle {
   margin-top: 64px;
   margin-bottom: 300px;
 }
+
+
 
 @media screen and (max-width: 700px) {
 
