@@ -543,7 +543,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .colorlib-about {
-  padding-top: 2em;
+  padding-top: 1em;
   clear: both;
   width: 100%;
   display: block;
@@ -564,7 +564,7 @@ body.offcanvas .colorlib-nav-toggle {
   height: 100vh;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
 
   .colorlib-experience,
   .colorlib-skills,
@@ -577,7 +577,7 @@ body.offcanvas .colorlib-nav-toggle {
     padding-top: 5em;
     padding-bottom: 8em;
   }
-}
+} */
 
 .author-img {
   background-size: cover;
@@ -2096,22 +2096,22 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .colorlib-footer {
-  margin-top: 210px;
+  margin-top: 220px;
 }
 
-@media screen and (max-height: 1200px) {
+@media screen and (max-width: 1280px) {
   .colorlib-footer {
-    margin-top: 160px;
+    margin-top: 100px;
     padding-bottom: 20px;
   }
 }
 
-@media screen and (max-height: 1000px) {
+/* @media screen and (max-height: 700px) {
   .colorlib-footer {
     margin-top: 120px;
     padding-bottom: 20px;
   }
-}
+} */
 
 .cert-cont {
   display: flex;
@@ -2171,9 +2171,9 @@ body.offcanvas .colorlib-nav-toggle {
   margin-top: 15px;
 }
 
-.colorlib-contact {
-  margin-top: 100px;
-}
+/* .colorlib-contact {
+  margin-top: 30px;
+} */
 
 .heading-meta.work-meta {
   margin-bottom: 0;
@@ -2249,5 +2249,17 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .colorlib-education {
-  margin-top: 120px;
+  margin-top: 64px;
+  margin-bottom: 300px;
+}
+
+@media screen and (max-width: 700px) {
+
+  /* .colorlib-about,
+  .colorlib-work,
+  .colorlib-education, */
+  .colorlib-contact,
+  .colorlib-education {
+    margin-bottom: 330px;
+  }
 }
