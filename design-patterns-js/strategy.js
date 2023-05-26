@@ -28,8 +28,13 @@ const taxi = new Taxi();
 
 const fare = new Fare();
 
+let people;
+let totalFare;
+
 fare.setStrategy(taxi);
+people = 2;
+console.log(`Taxi fare for ${people} is ${fare.calculate(people)} lv.`);
 
-let totalFare = fare.calculate(2);
-
-console.log(totalFare);
+fare.setStrategy(bus);
+people = 4;
+console.log(`Bus fare for ${people} is ${fare.calculate(people)} lv.`);
