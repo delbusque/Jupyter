@@ -1,8 +1,16 @@
+nav ul li {
+  list-style-type: none;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 30px auto;
+  background-color: rgb(153, 64, 64);
+  padding: 20px 40px;
+  margin-bottom: 30px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .logo {
@@ -11,15 +19,27 @@
 
 .nav {
   display: flex;
-
+  font-size: 19px;
 }
 
 ul {
-  list-style: none;
+  list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-li {
+.link {
+  text-decoration: none;
+  color: aliceblue;
   padding-right: 50px;
+}
+
+.logo {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.page {
+  padding-left: 40px;
+  text-align: center;
 }
