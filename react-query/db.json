@@ -1,0 +1,31 @@
+{
+  "clubs": [
+    {
+      "id": 1,
+      "name": "Arsenal",
+      "league": "Premiership"
+    },
+    {
+      "id": 2,
+      "name": "Crew",
+      "league": "League Two"
+    },
+    {
+      "id": 3,
+      "name": "Plymut Argile",
+      "league": "Championships"
+    }
+  ],
+  "managers": [
+    {
+      "id": 4,
+      "name": "Postekoglu",
+      "team": "Tottenham"
+    },
+    {
+      "id": 5,
+      "name": "Pep",
+      "team": "Man City"
+    }
+  ]
+}

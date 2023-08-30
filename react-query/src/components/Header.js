@@ -1,22 +1,24 @@
+import { Link } from 'react-router-dom';
+
 import { FaRegUser } from 'react-icons/fa';
 
 export const Header = () => {
     return (
         <div className="header">
 
-            <div className="logo">
+            <Link className="logo" to="/">
                 ReactQuery
-            </div>
+            </Link>
 
             <ul className="nav">
-                <li>Dummy</li>
-                <li>Super</li>
+                <Link className="link" to='/clubs'>Clubs</Link>
+                <Link className="link" to='/managers'>Managers</Link>
             </ul>
 
             <div className="auth">
                 <FaRegUser />
-            </div>
 
-        </div>
+            </div>
+        </div >
     )
 }
