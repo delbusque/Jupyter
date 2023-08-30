@@ -7,7 +7,7 @@ export const Header = () => {
         <div className="header">
 
             <Link className="logo" to="/">
-                ReactQuery
+                RQuery
             </Link>
 
             <ul className="nav">

@@ -11,14 +11,17 @@ nav ul li {
   margin-bottom: 30px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  border-bottom: 1px solid beige;
 }
 
 .logo {
-  font-size: 22px;
+  font-size: 20px;
+  font-family: monospace;
 }
 
 .nav {
   display: flex;
+  font-family: monospace;
   font-size: 19px;
 }
 
@@ -31,7 +34,7 @@ ul {
 .link {
   text-decoration: none;
   color: aliceblue;
-  padding-right: 50px;
+  padding: 0 30px;
 }
 
 .logo {
@@ -39,7 +42,28 @@ ul {
   color: aliceblue;
 }
 
+.home {
+  font-family: monospace;
+  font-size: 14px;
+  text-align: center;
+}
+
 .page {
   padding-left: 40px;
+  padding-right: 40px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line {
+  color: rgb(16, 61, 109);
+  background-color: antiquewhite;
+  margin: 10px 0;
+  padding: 5px 0;
+  border-radius: 6px;
+  font-size: 18px;
+  width: 30%;
   text-align: center;
 }
