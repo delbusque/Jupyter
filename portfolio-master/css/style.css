@@ -2180,6 +2180,12 @@ body.offcanvas .colorlib-nav-toggle {
   right: 25px;
 }
 
+.proj-icon-cont-2 {
+  position: absolute;
+  bottom: 20px;
+  right: 75px;
+}
+
 .proj-web-cont {
   position: absolute;
   bottom: 20px;
