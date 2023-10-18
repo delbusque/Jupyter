@@ -1,5 +1,7 @@
 import { StatusBar, SafeAreaView, ScrollView, StyleSheet, Text, View, Image } from 'react-native';
 import pizza from './assets/pizza.png'
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
+import { faCirclePlus } from '@fortawesome/free-solid-svg-icons/'
 
 export default function App() {
 
@@ -16,6 +18,10 @@ export default function App() {
         <View style={styles.info}>
           <Text style={styles.name}>Pizza BBQ</Text>
           <Text style={styles.ingr}>tomato sauce, chicken, ham, bacon, grilled mushrooms, peppers</Text>
+          <View style={styles.iconContainer}>
+            <FontAwesomeIcon icon={faCirclePlus} style={styles.icon} size={20} />
+            <Text style={styles.iconIngr}>Add ingredients</Text>
+          </View>
         </View>
 
 
@@ -73,6 +79,17 @@ const styles = StyleSheet.create({
     marginTop: 5,
     fontSize: 13,
     color: 'grey'
+  },
+  iconContainer: {
+    marginTop: 12,
+    flexDirection: 'row',
+  },
+  icon: {
+    color: '#fd7a5c',
+    marginRight: 10,
+  },
+  iconIngr: {
+    color: 'gray',
   }
 
 });
