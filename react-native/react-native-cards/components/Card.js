@@ -116,14 +116,14 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: 'white',
         alignItems: 'center',
-        marginTop: 60,
+        marginVertical: 30,
         marginHorizontal: 15,
         borderRadius: 20
     },
     imageContainer: {
         flex: 1,
         backgroundColor: '#dedfe4',
-        marginTop: 26,
+        marginTop: 24,
         borderTopLeftRadius: 15,
         borderTopRightRadius: 15,
         width: '87%',
