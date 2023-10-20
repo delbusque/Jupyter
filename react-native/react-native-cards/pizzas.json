@@ -1,0 +1,63 @@
+[
+  {
+    "_id": 1,
+    "name": "Pizza BBQ",
+    "price": 3,
+    "priceOld": 4.54,
+    "quantity": 0.5,
+    "quantityType": "g",
+    "ingredients": [
+      "tomato sauce",
+      "chicken",
+      "ham",
+      "bacon",
+      "grilled mushrooms",
+      "peppers"
+    ],
+    "imgUrl": "https://www.jessicagavin.com/wp-content/uploads/2015/06/bbq-chicken-pizza-5-1200.jpg"
+  },
+  {
+    "_id": 2,
+    "name": "Carbonara Pizza",
+    "price": 3.99,
+    "priceOld": 5.2,
+    "quantity": 0.566,
+    "quantityType": "g",
+    "ingredients": [
+      "crème fraiche",
+      "mozzarella",
+      "mature cheddar",
+      "egg",
+      "bacon",
+      "mushrooms",
+      "garlic cloves"
+    ],
+    "imgUrl": "https://www.wellplated.com/wp-content/uploads/2017/02/Carbonara-Pizza-recipe.jpg"
+  },
+  {
+    "_id": 3,
+    "name": "New York Pizza",
+    "price": 4.59,
+    "priceOld": 6.2,
+    "quantity": 0.6,
+    "quantityType": "g",
+    "ingredients": [
+      "tomato sauce",
+      "mozzarella",
+      "bacon",
+      "mushrooms",
+      "olives"
+    ],
+    "imgUrl": "https://images.squarespace-cdn.com/content/v1/5e80e64f9327941b94517c20/1631837513038-HN4FNHOZM9CIVRJ5RMMY/NY+Pizza.jpg"
+  },
+  {
+    "_id": 4,
+    "name": "Pizza Setangi Beach",
+    "price": 6.7,
+    "priceOld": false,
+    "quantity": 0.6,
+    "quantityType": "g",
+    "ingredients": ["tomato sauce", "chedar", "paprica", "salami", "peperoni"],
+    "imgUrl": "https://ais.kochbar.de/kbrezept/547900_1077595/1200x1200/pizza-mit-salami-paprika-und-peperoni-ala-setangi-beach-rezept-bild-nr-4.jpg"
+  }
+]
