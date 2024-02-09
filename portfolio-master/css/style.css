@@ -1393,7 +1393,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .project .desc .con {
-  padding: 20px;
+  padding: 40px;
   display: block;
   position: relative;
   height: 300px;
@@ -2292,4 +2292,28 @@ body.offcanvas .colorlib-nav-toggle {
 
 .col-md-6 {
   width: 100%;
+}
+
+.project .desc {
+  opacity: 0.3;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.graphql-icon,
+.express-icon {
+  width: 34px;
+}
+
+.color-9 {
+  border-bottom: 2px solid #e10098;
+}
+
+.colorlib-work {
+  padding-bottom: 1000px;
+}
+
+@media screen and (max-width: 768px) {
+  .colorlib-education {
+    margin-bottom: 32em;
+  }
 }
